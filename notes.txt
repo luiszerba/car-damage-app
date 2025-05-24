@@ -1,0 +1,16 @@
+#2916658002326978560
+#1853586388918730752
+
+gcloud ai endpoints deploy-model 2916658002326978560 \
+ --region=us-central1 \
+ --model=3300367769211502592 \
+ --display-name=car-damage-deployment-v4
+ --traffic-split=0=100
+
+
+
+#gcloud ai endpoints deploy-model 2916658002326978560 \
+# --region=us-central1 \
+# --model=4163932997759795200 \
+# --display-name=car-damage-deployment-v3 \
+# --traffic-split=0=100
